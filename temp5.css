@@ -1,0 +1,590 @@
+
+body{
+    background-image: url('t5b.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+}
+.img1{
+    width: 100%;
+    height: fit-content;
+
+}
+.container {
+
+    position: relative;
+}
+.container .text {
+       background: rgb(60 16 225 / 69%);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.intext{
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 40%;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgb(255, 0, 0);
+    width: 60%;
+    
+}
+.btext{
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 60%;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    width: 30%;
+}
+.text2 {
+    background: #f5ec42;
+ z-index: 1;
+ position: absolute;
+ text-align: center;
+ font-family: Georgia;
+ margin-top: 100px;
+ width: 100%;
+ height: 90%;
+}
+.intext2{
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 20%;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgb(255, 0, 0);
+    width: 40%;
+}
+.divide{
+    display: inline;
+    column-count: 2;
+    text-align: left;
+}
+.btext2{
+    z-index: 1;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0 auto;
+    right: 110px;
+    top: 60%;
+    font-size: 30px;
+    color: rgb(1, 14, 201);
+    width: 30%;
+}
+.btext21{
+    z-index: 1;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0 auto;
+    left: 210px;
+    top: 60%;
+    font-size: 30px;
+    color: rgb(1, 14, 201);
+    width: 30%;;
+    
+}
+.img3{
+ 
+    height: fit-content;
+    width: 76%;
+    opacity: 0;
+
+}
+.container3 {
+    position: relative;
+}
+.text3 {
+    background-image: url("t52.jpg");
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+   
+    width: 100%;
+    height: 100%;
+}
+.intext3{
+   
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 17%;
+    font-weight: bold;
+    font-size: 54px;
+    color: rgb(255, 102, 0);
+    width: 47%;
+}
+.inhead{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.intext3 button{
+    background-color: rgb(59, 3, 203);
+    color: white;
+    font-size: 25px;
+    border: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+.text4 {
+    background: #f5ec42;
+ z-index: 1;
+ position: absolute;
+ text-align: center;
+ font-family: Georgia;
+ margin-top: 80px;
+ width: 100%;
+ height: 250%;
+}
+.intext4 h1{
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    text-align: left;
+    right: 338px;
+    top: -177px;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgb(255, 0, 0);
+    width: 15%;
+}
+.intext4 p{
+    width: 30%;
+    color: blue;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-family:'Courier New';
+    left: 270px;
+    top: -114px;
+
+}
+.empty{
+    height: 600px;
+}
+.img4{
+    position: relative;
+    right: 0px;
+   
+    left: 290px;
+    margin-top: 70px;
+}
+.img5{
+    position: relative;
+    right: 60px;
+    top: 510px;
+    
+}
+.para{
+    width: 20%;
+}
+.allsc{
+    width: 100%;
+    display: flex;
+}
+.scrolls{
+    display: flex;
+    width: 25%;
+    margin-top: 100px;
+    position: relative;
+    
+}
+.pic{
+    display: block;
+  width: 100%;
+  height: auto;
+
+}
+.overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #36343494;
+      }
+      
+.scrolls:hover .overlay {
+    opacity: 1;
+  }
+  
+  .tex{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+   .navi{
+    overflow: hidden;
+  z-index: 2;
+  position: fixed;
+  top: 200px;
+  width: 12%;
+  margin-left: 20px;
+
+  } 
+  .navul{
+    display: table-caption;
+      display: block;
+      text-align: left;
+      width: 100%;
+      
+  }
+
+  .navul li{
+    float: left;
+    display: block;
+    background-color: white;
+    color: #1500fd;
+    text-align: center;
+    margin: 5px;
+    font-family:times, monospace;
+    padding: 5px 20px;
+    font-size: large;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .smile{
+      width: 50%;
+      margin-left: 40px;
+  }
+  .navul li:hover{
+      color: #f5ec42;
+      background-color: #1500fd;
+  }
+  .container5{
+      background-color: white;
+      height: 800px;
+  }
+  .container5 h1{
+    background: #f5ec42;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    text-align: left;
+    right: 370px;
+    top: 104px;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgb(121, 12, 254);
+    width: 27%;
+  }
+  .container5 img{
+    position: relative;
+    width: 600px;
+    right: 0px;
+    left: 250px;
+    margin-top: 70px;
+  }
+  .caters{
+      float: right;
+      width: 40%;
+      color: #1500fd;
+      
+      font-family: 'Times New Roman', Times, serif;
+      display: block;
+  }
+  .caters p:first-of-type{font-size: 25px;
+  }
+  .caters p:last-of-type{
+      font-size: 20px;
+      word-spacing: 5px;
+  }
+  .labe{
+      display: inline-block;
+      width: 49%;
+  }
+  .inp{
+      display: inline-block;
+    width: 49%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(107, 105, 219);
+  }
+  .inp:hover
+  {
+    border-bottom: 2.5px solid rgb(4, 0, 255);
+  }
+  .send{
+      border: none;
+      width: 100%;
+      font-size: 25px;
+      background-color: white;
+      color: #1500fd;
+      font-weight: bold;
+  }
+  .send:hover{
+      color: #8e85f1;
+  }
+
+  .img6{
+    width: 100%;
+    height: fit-content;
+
+}
+.container6 {
+
+    position: relative;
+}
+.container6 .text6 {
+       background: rgb(60 16 225 / 69%);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.intext6{
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 0px;
+    top: 30%;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgb(255, 98, 0);
+    width: 30%;
+    
+}
+.contat{
+    width: 25%;
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: 593px;
+    top: 50%;
+    word-spacing: 5px;
+  
+    white-space: pre-line;
+    font-size: 20px;
+    color: rgb(246, 255, 0);
+}
+.cont{
+    width: 25%;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: -500px;
+    white-space: pre-line;
+    top: 50%;
+  
+    font-size: 20px;
+    color: rgb(255, 255, 0);
+}
+
+.conttext{
+    display: inline-block;
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(242, 255, 0);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: -500px;
+    color: #f5ec42;
+    top: 55%;
+    font-size: 20px;
+}
+.conttext2{
+    display: inline-block;
+    width: 35%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(238, 255, 4);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: -1px;
+    right: -500px;
+    color: #f5ec42;
+    top: 65%;
+}
+.conttext::placeholder{
+    color: #f5ec42;
+}
+.conttext2::placeholder{
+    color: #f5ec42;
+}
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+   
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+   
+    background-color: rgb(1, 12, 224);
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  .open-button{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Arial Narrow Bold';
+      background-color:#5d4efb;
+      color: #f5f5f5;
+    overflow: hidden;
+    z-index: 2;
+    margin-right: 20px;
+    position: fixed;
+    top: 620px;
+    right: 0;
+    width: 15%;
+    border: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .social{
+    overflow: hidden;
+    z-index: 2;
+    margin-right: 20px;
+    position: fixed;
+    top: 180px;
+    right: 0;
+    width: 200px;
+    
+    
+  }
+  .social a{
+      color: black;
+      padding: 5px;
+      border-radius: 20px;
+      margin: 2px 5px;
+      background-color: white;
+      font-size: 20px;
+  }
+  @media screen and (max-width:426px){
+      body{
+        background-image: url('t5b.jpg'); 
+        margin: 0;
+      }
+  }
+  @media screen and (max-width:426px){
+    .navi{
+      display: none;
+    }
+}
+
+
